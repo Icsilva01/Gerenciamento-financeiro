@@ -27,8 +27,6 @@ export const Table: React.FC<Props> = ({ transactionList }) => {
     return `${day}/${month}/${year}`;
   };
 
-  const isTransactionListEmpty = transactionList.length === 0;
-
   return (
     <Box paddingTop={2} maxHeight={200}>
       <TableContainer
